@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- 浏览器标签上显示的网站标题 -->
-    <title>Souiken Tabs</title>
+    <title>Souiken's Home</title>
     <!-- 网站介绍 -->
-    <meta name="description" content="Souiken Tabs">
+    <meta name="description" content="Souiken's Home">
     <!-- 网站关键字 -->
     <meta name="keywords" content="风也温柔,个人主页,程序员">
     <!-- 浏览器标签上显示的图标 -->
-    <link rel="icon" type="image/ico" href="//sdn.geekzu.org/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <link rel="icon" type="image/ico" href=".\\img\\avatar.jpg">
     <!-- 样式文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
@@ -22,12 +22,12 @@
     <style>
         body {
             /*背景图片URL 可使用随机图片API */
-            background-image: url(".\img\94819771_p0.png");
+            background-image: url(".\\img\\94819771_p0.png");
         }
 
         .photo-bg {
             /* 卡片左侧图片 */
-            background-image: url(".\img\avatar.jpg");
+            background-image: url(".\\img\\avatar.jpg");
         }
     </style>
     <script>
@@ -38,7 +38,7 @@
         let music_id = "524148945"; // 歌单ID或歌曲ID或者专辑ID 20173709 29732992
         let music_order = "random"; // 音频循环顺序, 顺序播放： 'list', 随机播放：'random'
         let music_mini = false; // mini模式 吸底模式开启后此选项实效 true / false
-        let music_fixed = false; // 吸底模式
+        let music_fixed = true; // 吸底模式
         let music_volume = 0.7; // 默认音量
         let music_autoplay = false; // 自动播放
         let music_loop = "all"; // 音频循环播放, 可选值: 'all', 'one', 'none' ，分别为全部循环，单曲循环，不循环
@@ -56,8 +56,26 @@
                 <h1>Souiken</h1>
                 <!-- 标题下的一段话 -->
                 <p>
-                    愿我们度过这个漫漫长夜之后, 依旧能看到那旭日东升.
+                    愿我们度过这个漫漫长夜之后, <br> 依旧能看到那旭日东升.
                 </p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- 导航按钮组 -->
+                        <button data-href="//www.kezez.com" data-title="Blog" data-window="pop" data-anim="4"
+                            data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-primary col-lg-4">Blog</button>
+
+                        <button data-href="https://github.com/kaygb/Souiken" data-title="GitHub" data-window="newtab"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-secondary col-lg-4">GitHub</button>
+
+                        <button data-href="mailto:souiken@qq.com"
+                            data-title="Blog" data-window="pop" data-anim="4" data-area-w="80%" data-area-h="90%"
+                            data-shade="false" class="kz-nav-btn btn btn-success col-lg-4">Send a Mail</button>
+
+                        <!-- end 导航按钮组 -->
+                    </div>
+                </div>
                 <!-- aplayer inner -->
                 <div id="aplayer-inner" class="aplayer"></div>
                 <!-- end aplayer inner -->
@@ -66,6 +84,10 @@
                     <li><a href="#"><i class="fab fa-telegram" aria-hidden="true"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
                     <li><a href="https://www.zhihu.com/people/jiao-41-14"><i class="fab fa-zhihu"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.twitch.tv/Souiken"><i class="fab fa-twitch" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="https://steamcommunity.com/id/Souiken/"><i class="fab fa-steam"
                                 aria-hidden="true"></i></a></li>
                 </ul>
 
