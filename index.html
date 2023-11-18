@@ -31,6 +31,11 @@
         }
     </style>
     <script>
+        function Blog(){
+            // var ReBack = confirm("Blog正在建设中, 尽请期待.");
+            // window.alert("Blog正在建设中, 尽请期待.");
+            alert("Blog正在建设中, 尽请期待.");
+        }
         // 音乐设置
         let meting_music_api = "https://api.mizore.cn/meting/api.php";// meting api
         let music_server = "netease"; // 音乐服务：网易云 netease 参见 meting api支持的服务
@@ -61,17 +66,26 @@
                 <div class="container-fluid">
                     <div class="row">
                         <!-- 导航按钮组 -->
-                        <button data-href="//www.kezez.com" data-title="Blog" data-window="pop" data-anim="4"
+                        <!-- <button data-href="//www.kezez.com" data-title="Blog" data-window="pop" data-anim="4"
                             data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-primary col-lg-4">Blog</button> -->
+                        <button data-href="" onclick="Blog()" data-title="Blog"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
                             class="kz-nav-btn btn btn-primary col-lg-4">Blog</button>
 
-                        <button data-href="https://github.com/kaygb/Souiken" data-title="GitHub" data-window="newtab"
+                        <button data-href="https://github.com/Souiken" data-title="GitHub" data-window="newtab"
                             data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
                             class="kz-nav-btn btn btn-secondary col-lg-4">GitHub</button>
 
-                        <button data-href="mailto:souiken@qq.com"
+                        <button data-href="" onclick="window.location.href='mailto:souiken@qq.com'" data-title="Mail"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-success col-lg-4">Mail to Me</button>
+                        <!-- <button data-href="mailto:souiken@qq.com" data-title="Mail" data-window="pop"
+                            data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
+                            class="kz-nav-btn btn btn-success col-lg-4">Mail to Me</button> -->
+                        <!-- <button data-href="mailto:souiken@qq.com"
                             data-title="Blog" data-window="pop" data-anim="4" data-area-w="80%" data-area-h="90%"
-                            data-shade="false" class="kz-nav-btn btn btn-success col-lg-4">Send a Mail</button>
+                            data-shade="false" class="kz-nav-btn btn btn-success col-lg-4">Send a Mail</button> -->
 
                         <!-- end 导航按钮组 -->
                     </div>
@@ -93,7 +107,7 @@
 
                 <footer>
                     <p>© Souiken
-                        <a href="https://icp.gov.moe/" target="_blank">萌ICP备20235997号</a>
+                        <a href="https://icp.gov.moe/?keyword=20235997" target="_blank">萌ICP备20235997号</a>
                         <br>Mod by
                         <a href="https://github.com/kaygb" target="_blank" rel="">kaygb</a>
                     </p>
