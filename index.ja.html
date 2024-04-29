@@ -29,19 +29,6 @@
         }
     </style>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // 获取用户浏览器语言
-            const userLanguage = window.navigator.language;
-            console.log('User Launguage Checking OK!');
-            console.log('User Launguage is:', userLanguage);
-            // 重定向到相应语言的页面
-            // window.location.href = `./index.ja.html`;
-            if (userLanguage == 'ja-JP' || userLanguage == 'ja') {
-                window.location.href = `./index.ja.html`;
-            }else if (userLanguage !== 'zh-CN' && userLanguage !== 'zh') {
-                window.location.href = `./index.en.html`;
-            }
-        });
         // 音乐设置
         // 音乐设置
         let meting_music_api = "https://api.mizore.cn/meting/api.php";// meting api
@@ -68,14 +55,14 @@
                 <h1>Souiken</h1>
                 <!-- 标题下的一段话 -->
                 <p>
-                    愿我们度过这个漫漫长夜之后, <br> 依旧能看到那旭日东升.
+                    この長い夜を越えて、<br>再び朝日が昇るのを見られますように。
                 </p>
                 <div class="container-fluid">
                     <div class="row">
                         <!-- 导航按钮组 -->
                         <button data-href="https://blog.souiken.moe/" data-title="Blog" data-window="newtab"
                             data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
-                            class="kz-nav-btn btn btn-primary col-lg-4">Blog</button>
+                            class="kz-nav-btn btn btn-primary col-lg-4">Blog(中国語)</button>
 
                         <button data-href="https://github.com/Souiken" data-title="GitHub" data-window="newtab"
                             data-anim="4" data-area-w="80%" data-area-h="90%" data-shade="false"
