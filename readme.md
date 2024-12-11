@@ -11,7 +11,7 @@
 [![](https://img.shields.io/badge/Android-13-b?style=flat-square&logo=android&logoColor=ffffff)](https://www.android.com/android-1/)
 
 [![](https://img.shields.io/badge/iPhone-12%20Pro-999999?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
-[![](https://img.shields.io/badge/iPhone-6s-999999?style=flat-square&logo=apple&logoColor=ffffff)](https://www.apple.com/)
+[![](https://img.shields.io/badge/Asus%20Vivobook%20Pro-15-999999?style=flat-square&logo=asus&logoColor=ffffff)](https://www.asuse.com/)
 
 [![](https://img.shields.io/badge/Visual%20Studio%20Code-blue?style=flat-square&logo=visual-studio-code&logoColor=ffffff)](https://code.visualstudio.com/)
 [![](https://img.shields.io/badge/Visual%20Studio-blueviolet?style=flat-square&logo=visual-studio&logoColor=ffffff)](https://visualstudio.com/)
