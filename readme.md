@@ -21,6 +21,7 @@
 [![](https://img.shields.io/badge/GPU-GTX%204060%20Laptop-b?style=flat-square&logo=nvidia&logoColor=ffffff)](https://www.nvidia.com)
 
 [![](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=ffffff)]()
+[![](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=ffffff)]()
 [![](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=ffffff)]()
 [![](https://img.shields.io/badge/Markdown-black?style=flat-square&logo=markdown&logoColor=ffffff)](https://markdown.com.cn/)
 
